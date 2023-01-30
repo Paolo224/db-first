@@ -1,0 +1,28 @@
+ID                              - intero - MEDIUMINT (16,7 mln)         - PRIMARY_KEY
+MARCA                           - stringa - VARCHAR (20)                - NOTNULL
+MODELLO                         - stringa - VARCHAR (40)                - NOTNULL
+TIPOLOGIA_DI_TELAIO             - stringa - VARCHAR (40)                - NULL
+ALLESTIMENTO                    - stringa - VARCHAR (50)                - NULL
+ALIMENTAZIONE                   - stringa - VARCHAR (20)                - NOTNULL
+CLASSE_DI_EMISSIONI             - stringa - VARCHAR (10)                - NULL
+AIR-BAG                         - stringa - VARCHAR (2)                 - NULL
+CAVALLI                         - numero - SMALLINT (1.500)             - NULL
+KW                              - numero - SMALLINT (1.500)             - NULL
+CILINDRATA                      - numero - SMALLINT (10.000)            - NULL
+CAMBIO                          - stringa - VARCHAR (20)                - NULL
+NUMERO_I_PORTE                  - numero - TINYINT (10)                 - NOTNULL
+NUMERO_DI_POSTI                 - numero - TINYINT (12)                 - NOTNULL
+LITRI_BAGAGLIAIO                - numero - SMALLINT (5.000)             - NOTNULL
+PESO                            - numero - SMALLINT (5.000)             - NOTNULL
+COLORE_DELLA_CARROZZERIA        - stringa - VARCHAR (50)                - NOTNULL
+NUMERO_DI_TELAIO                - numero - TINYINT (17)                 - NOTNULL   - UNIQUE 
+ANNO_DI_IMMATRICOLAZIONE        - date - YEAR                           - NULL
+ANNO_DI_PRODUZIONE              - date - YEAR                           - NULL
+KILOMETRAGGIO                   - numero - INT (600.000)                - NULL
+NUMERO_DI_PROPRIETARI           - numero - TINYINT (10)                 - NULL      - DEFAULT (0)
+NUMERO_DI_SINISTRI              - numero - TINYINT (30)                 - NULL      - DEFAULT (0)
+PREZZO                          -numero - FLOAT (8 , 2)                 - NOTNULL
+
+
+
+
