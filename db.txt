@@ -1,11 +1,11 @@
-ID                              - intero - MEDIUMINT (16,7 mln)         - PRIMARY_KEY
+ID                              - intero - BIGINT (9 trl)         - PRIMARY_KEY
 MARCA                           - stringa - VARCHAR (20)                - NOTNULL
 MODELLO                         - stringa - VARCHAR (40)                - NOTNULL
 TIPOLOGIA_DI_TELAIO             - stringa - VARCHAR (40)                - NULL
 ALLESTIMENTO                    - stringa - VARCHAR (50)                - NULL
 ALIMENTAZIONE                   - stringa - VARCHAR (20)                - NOTNULL
 CLASSE_DI_EMISSIONI             - stringa - VARCHAR (10)                - NULL
-AIR-BAG                         - stringa - VARCHAR (2)                 - NULL
+AIR-BAG                         - numero - TINYINT (2)                 - NULL
 CAVALLI                         - numero - SMALLINT (1.500)             - NULL
 KW                              - numero - SMALLINT (1.500)             - NULL
 CILINDRATA                      - numero - SMALLINT (10.000)            - NULL
